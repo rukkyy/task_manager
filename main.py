@@ -1,14 +1,25 @@
-# Request user to input their name 
-#name = input("what is your name?\n")
-# Print welcome message with user's name   
-#print(f"Welcome,{name}")
+import add
+import show 
+import update 
+import delete
 
-#Ask user to enter first number 
-first_number=input ("Enter the first number")
-#Ask user to enter second number 
-second_number=input ("Enter the second number")
-first_number=int(first_number)
-second_number=int(second_number)
-#Print the result
-result = (first_number + second_number)
-print(result)
+add_task_response = add.add_task("sleep")
+print (add_task_response)
+
+show_tasks_response = show.show_tasks("sleep","Wake Up")
+print(show_tasks_response)
+
+update_task_response = update.delete_task("wake up ")
+print(update_task_response )
+
+delete_task_response= delete.delete_task("wake up ")
+print(delete_task_response )
+
+
+
+
+
+
+
+
+
