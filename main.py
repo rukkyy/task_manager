@@ -1,19 +1,12 @@
-import add
-import show 
-import update 
-import delete
+from oop import Chat
 
-add_task_response = add.add_task("sleep")
-print (add_task_response)
+chat_with_abena = Chat()
+# chat_with_micheal = Chat("Michael Hammod","Extend the portfolio deadline","5:56 AM")
+# chat_with_0545819523 = Chat("the closer","When are we ending the class", "3:59 PM ")
 
-show_tasks_response = show.show_tasks("sleep","Wake Up")
-print(show_tasks_response)
+print(chat_with_abena) 
+print
 
-update_task_response = update.delete_task("wake up ")
-print(update_task_response )
-
-delete_task_response= delete.delete_task("wake up ")
-print(delete_task_response )
 
 
 
